@@ -116,4 +116,4 @@ CSS -
 
 13. https://fontawesome.com/
 
-14. I love to code and am currently pursuing my Masters in Information Technology from IIIT Allahabad.
+14. https://gauravgupta916.github.io/Portfolio/
