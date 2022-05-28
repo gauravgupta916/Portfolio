@@ -1,0 +1,119 @@
+1. <img>, <span>, <a> are inline element tags and do not block other elements from sitting in the same line. 
+	But their width cannot be changed.
+2. <p>, <div>, etc are blocking elements and do not allow other tags to sit in the same line. Their width can be changed.
+3. using inline-block elements we can achieve functionalities of both inline and block elements.
+4. display property :-
+    a) Block
+	b) Inline
+	c) Inline-Block
+	d) none  --> removes element from the page as if it never existed.
+5. visibility: hidden;  --> this is different from display:none such that on using "visibility: hidden;" the
+	space of the element is still there on the screen but the element is no more visible.
+
+=======================================================================
+6. 
+HTML -
+<body>
+  <div class="red">
+
+  </div>
+
+  <div class="blue">
+
+  </div>
+
+  <div class="yellow">
+
+  </div>
+</body>
+
+CSS -
+
+.red{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+  left: 215px;
+}
+.blue{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.yellow{
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;    ---> position: fixed is also an attribute
+  right: 215px;
+}
+
+=======================================================================
+7. https://fonts.google.com/
+
+8. https://www.flaticon.com/
+
+9. https://codepen.io/
+
+10. https://www.codeply.com/    -->username: gaurav_916 , password:  DkrEQNTSSArb6V3
+
+11. Responsive website means that the website responds to the size of the screen or the viewpoint. It means that
+	the website looks different when viewed on an ipad, than when viewed on a desktop or a mobile phone.
+	
+12.
+
+<div class="row">
+    <div class="col" style="background-color:red; border: 1px solid">
+        col
+    </div>
+    <div class="col" style="background-color:red; border: 1px solid">
+        col
+    </div>
+    <div class="col" style="background-color:red; border: 1px solid">
+        col
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-6" style="background-color:green; border: 1px solid">
+        col-6
+    </div>
+    <div class="col-3" style="background-color:yellow; border: 1px solid">
+        col-3
+    </div>
+    <div class="col-2" style="background-color:blue; border: 1px solid">
+        col-2
+    </div>
+    <div class="col-1" style="background-color:orange; border: 1px solid">
+        col-1
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6" style="background-color:green; border: 1px solid">
+        col-md-6
+    </div>
+    <div class="col-md-3" style="background-color:yellow; border: 1px solid">
+        col-md-3
+    </div>
+    <div class="col-md-2" style="background-color:blue; border: 1px solid">
+        col-md-2
+    </div>
+    <div class="col-md-1" style="background-color:orange; border: 1px solid">
+        col-md-1
+    </div>
+</div>
+
+===============================================================================================
+
+13. https://fontawesome.com/
+
+14. I love to code and am currently pursuing my Masters in Information Technology from IIIT Allahabad.

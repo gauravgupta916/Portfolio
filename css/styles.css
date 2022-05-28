@@ -1,0 +1,200 @@
+body {
+  background-color: powderblue;
+  margin: 0;
+  text-align: center;
+  /* centers everything in body element that does not have a width set to some explicit value. */
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #35858B;
+  font-family: "Montserrat",sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.my-img{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+
+.skill-img1{
+  /*width: 200px;
+  height: 200px;*/
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill-img2{
+  /*width: 230px;
+  height: 230px;*/
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.skill-img4{
+  /*width: 230px;
+  height: 230px;*/
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill-img3{
+  /*width: 230px;
+  height: 230px;*/
+  width: 23%;
+  float: right;
+  padding-right: 30px;
+}
+
+h1 {
+  font-size: 4.6875rem; /* 100% = 16px = 1em,  therefore -> 75px = 468.75%  = 4.6875 rem*/
+  margin: 0;
+  font-family: 'Sacramento', sans-serif;
+  margin: 50px auto 0 auto;
+  /*line-height: 2;*/
+  color: #005555;
+  /*width: 10%;
+  margin: 0 auto 0 auto;   since for h1 element width is set to 10% of page size hence only "text-align: center;" will not work.
+  thus we need to use magrgin propert here. 0 -> top margin , auto -> left margin, 0 -> bottom margin, auto -> right  margin*/
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-family: 'Montserrat', serif;
+  color: #005555;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Montserrat', serif;
+  color: #46244C;
+}
+
+footer-link:link {
+  color: #E83A14;
+}
+
+.top-container {
+  background-color: #FF8080;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  /*background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  margin: 0px 200px 0px 260px;*/
+  margin: 100px 0;
+}
+
+.bottom-container {
+  /*background-color: red;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  margin: 0px 200px 0px 500px;*/
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin: 30px auto 50px auto;
+}
+
+.top-cloud {
+  position: relative;
+  left: 400px;
+  top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+}
+
+.hr-line{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #40514E;
+  border-width: 5px;
+  width: 8%;
+}
+
+.contact-me{
+
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat",sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.degree{
+  font-weight: bold;
+}
+
+.college{
+  font-weight: bold;
+}
